@@ -1,5 +1,5 @@
 FROM ubuntu:latest
-
+ENV  DEBIAN_FRONTEND=noninteractive
 LABEL maintainer="michel@michel.eti.br"
 
 # change repository for performance and enable other packages
